@@ -1,0 +1,15 @@
+---
+---
+
+@import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
+@import "minima/initialize";
+
+.site-header {
+  background-color: #000;
+  
+  .site-title, 
+  .page-link {
+    color: #FFF;
+    &:hover { color: magenta; }
+  }
+}
