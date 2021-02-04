@@ -1,0 +1,14 @@
+---
+---
+
+@import "minima";
+
+.site-header {
+  background-color: #000;
+  
+  .site-title, 
+  .page-link {
+    color: #FFF;
+    &:hover { color: magenta; }
+  }
+}
